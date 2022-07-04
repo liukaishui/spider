@@ -1,0 +1,5 @@
+database:
+  DSN: "root:root@tcp(localhost:3306)/spider?charset=utf8mb4&collation=utf8mb4_unicode_ci&parseTime=True&loc=Local"
+  ConnMaxLifetime: 28800
+  MaxOpenConn: 10
+  MaxIdleConn: 10
